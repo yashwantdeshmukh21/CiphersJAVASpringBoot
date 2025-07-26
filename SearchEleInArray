@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SearchEleInArray {
+    public static void main(String[] args) {
+        int arr[] = {5,8,2,9,1};
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the element to search: ");  
+        int key = sc.nextInt();
+
+        boolean found = false;
+        for (int val[] : arr) {
+            if (val == key) {
+                found = true;
+                break;
+            }
+            System.out.println(found ? "Element found " : "Element Not Found ");
+        }
+
+    }
+}
