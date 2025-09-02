@@ -1,1 +1,0 @@
-//Use ternary operator to check whether a number is positive, negative, or zero.
